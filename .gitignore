@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Private team data (keep the placeholder README)
+data/real/*
+!data/real/README.md
+
+# Generated simulation outputs
+results/*
+!results/.gitkeep
