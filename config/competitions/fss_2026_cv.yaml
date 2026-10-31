@@ -1,0 +1,43 @@
+event_id: fss_2026
+class: CV
+year: 2026
+rules_year: 2026
+verification: to_verify
+source:
+  documents:
+    - document: Formula Student Spain Rules v1.0 2024
+      url: https://www.formulastudent.es/wp-content/uploads/2024/04/Formula_Student_Spain_Rules_v1.0_2024.pdf
+      used_for: maximum points (CV), pending confirmation in official FSS 2026 documents
+    - document: Formula Student Rules 2026 Version 1.1
+      url: https://www.formulastudent.de/fileadmin/user_upload/all/2026/rules/FS-Rules_2026_v1.1.pdf
+      sections:
+        - D9.1.1 (default scoring formula)
+        - Table 11 (Tmax multipliers and Pmin fractions)
+      used_for: scoring parameters copied pending FSS 2026 handbook confirmation
+max_points:
+  business_plan: 75
+  cost: 100
+  design: 150
+  skidpad: 75
+  acceleration: 75
+  autocross: 100
+  endurance: 325
+  efficiency: 100
+  overall: 1000
+disciplines:
+  skidpad:
+    tmax_multiplier: 1.35
+    pmin_fraction: 0.05
+    formula_id: d9_1_1_default
+  acceleration:
+    tmax_multiplier: 1.7
+    pmin_fraction: 0.05
+    formula_id: d9_1_1_default
+  autocross:
+    tmax_multiplier: 1.4
+    pmin_fraction: 0.1
+    formula_id: d9_1_1_default
+  endurance:
+    tmax_multiplier: 1.5
+    pmin_fraction: 0.1
+    formula_id: d9_1_1_default

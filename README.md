@@ -1,6 +1,6 @@
 # fs-strategy-montecarlo
 
-Monte Carlo simulator of Formula Student competitions (CV class) and a budgeted upgrade allocator.
+Monte Carlo simulator of Formula Student competitions (CV class) and a budgeted upgrade allocator. The public repository uses synthetic data and published results to estimate point distributions and compare upgrade bundles under a cash constraint.
 
 Status: Work in progress.
 
